@@ -1,5 +1,8 @@
 import React from 'react'
-
+import footer2 from '/public/footer2.png'
+import footer3 from '/public/footer3.png'
+import footer6 from '/public/footer.png'
+import footer1 from '/public/footer1.png'
 function Footer() {
   return (
     <div className='footer'>
@@ -12,14 +15,14 @@ function Footer() {
     <div className='footer-logos'>
     <ul className='list-logos'>
     <a href='mailto:abrar.alrahman@gmail.com' target='blank'>
-   <li> <img src='./footer2.png' /></li>
+   <li> <img src={footer2} /></li>
    </a>
    <a href='https://www.behance.net/' target='blank'>
-   <li>  <img src='./footer3.png' /> </li> </a>
+   <li>  <img src={footer3} /> </li> </a>
    <a href='https://www.linkedin.com/' target='blank'>
-   <li>  <img src='./footer.png' /></li> </a>
+   <li>  <img src={footer6} /></li> </a>
    <a href='https://www.linkedin.com/' target='blank'>
-   <li>  <img src='./footer1.png' /> </li> </a>
+   <li>  <img src={footer1} /> </li> </a>
         </ul>
         </div>
         <div className='footer_copyright'>

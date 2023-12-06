@@ -1,5 +1,7 @@
 import React from 'react'
-
+import subcard1 from "/public/subcard1.png"
+import subcard2 from "/public/subcard2.png"
+import subcard3 from "/public/subcard3.png"
 const Subcard = () => {
   return (
     <div className='subcard'>
@@ -9,10 +11,10 @@ const Subcard = () => {
       </p>
     </div>
     <div className='subcard-img'>
-    <img src='./subcard1.png' />
+    <img src={subcard1} />
     <div className='subcard-img2'>
-    <img src='./subcard2.png' />
-    <img src='./subcard3.png' />
+    <img src={subcard2} />
+    <img src={subcard3}/>
     </div>
     </div>
     </div>

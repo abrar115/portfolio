@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaGreaterThan } from "react-icons/fa6";
+import stock from "/public/stockimg1.png"
 const Card1 = () => {
   return (
     <div>
@@ -8,7 +9,7 @@ const Card1 = () => {
   </h1>
   <div className="card1">
     <div className="">
-      <img src='./stockimg1.png' alt="card_1" />
+      <img src={stock} alt="card_1" />
     </div>
     <div className="card_text">
       <p className="text_white">Real estate Template</p>

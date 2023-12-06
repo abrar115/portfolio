@@ -1,12 +1,13 @@
 import React from 'react'
 import { FaGreaterThan } from "react-icons/fa6";
+import card36  from "/public/card3.png"
 const Card3 = () => {
   return (
     <div>
    
   <div className="card1">
     <div className="">
-      <img src='./card3.png' alt="card_1" />
+      <img src={card36}  alt="card_1" />
     </div>
     <div className="card_text">
       <p className="text_white">Smart home APP</p>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaArrowRight } from "react-icons/fa6";
-
+import card56  from "/public/card4.png"
 const Card4 = () => {
   return (
     <div>
@@ -17,7 +17,7 @@ const Card4 = () => {
       <button className='button2'>View work <FaArrowRight/></button>
     </div>
     <div className="card2img">
-    <img src='./card4.png' alt="card_1" />
+    <img src={card56} alt="card_1" />
   </div>
       </div>
 </div>
