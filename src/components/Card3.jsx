@@ -6,7 +6,7 @@ const Card3 = () => {
    
   <div className="card1">
     <div className="">
-      <img src='card3.png' alt="card_1" />
+      <img src='./card3.png' alt="card_1" />
     </div>
     <div className="card_text">
       <p className="text_white">Smart home APP</p>

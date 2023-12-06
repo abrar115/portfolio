@@ -12,14 +12,14 @@ function Footer() {
     <div className='footer-logos'>
     <ul className='list-logos'>
     <a href='mailto:abrar.alrahman@gmail.com' target='blank'>
-   <li> <img src='footer2.png' /></li>
+   <li> <img src='./footer2.png' /></li>
    </a>
    <a href='https://www.behance.net/' target='blank'>
-   <li>  <img src='footer3.png' /> </li> </a>
+   <li>  <img src='./footer3.png' /> </li> </a>
    <a href='https://www.linkedin.com/' target='blank'>
-   <li>  <img src='footer.png' /></li> </a>
+   <li>  <img src='./footer.png' /></li> </a>
    <a href='https://www.linkedin.com/' target='blank'>
-   <li>  <img src='footer1.png' /> </li> </a>
+   <li>  <img src='./footer1.png' /> </li> </a>
         </ul>
         </div>
         <div className='footer_copyright'>

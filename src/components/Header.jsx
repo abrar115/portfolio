@@ -3,7 +3,7 @@ import React from 'react'
 function Header() {
   return (
     <div className='heading'>
-    <img src="dezion.png" /> 
+    <img src="./dezion.png" /> 
     <div className='search-bar.div'>
     <ul>
     <li className='lihome'>Home</li>

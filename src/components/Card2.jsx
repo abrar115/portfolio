@@ -22,7 +22,7 @@ const Card2 = () => {
       <button className='button2'>View work <FaArrowRight/></button>
     </div>
     <div className="card2img">
-    <img src='plant.png' alt="card_1" />
+    <img src='./plant.png' alt="card_1" />
   </div>
 
 

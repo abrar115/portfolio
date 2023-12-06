@@ -9,10 +9,10 @@ const Subcard = () => {
       </p>
     </div>
     <div className='subcard-img'>
-    <img src='subcard1.png' />
+    <img src='./subcard1.png' />
     <div className='subcard-img2'>
-    <img src='subcard2.png' />
-    <img src='subcard3.png' />
+    <img src='./subcard2.png' />
+    <img src='./subcard3.png' />
     </div>
     </div>
     </div>
