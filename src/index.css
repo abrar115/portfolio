@@ -1,0 +1,177 @@
+body{
+    background-color: black;
+    width:80%;
+    margin:auto;
+}
+ul{
+    list-style: none;
+    color: white;
+    display:flex;
+    justify-content: right;
+    padding-right:50px;   
+}
+.heading{
+    background-color: black;
+}
+li{
+    padding-left: 20px;
+}
+.lihome{
+    color:#bf41bf;
+}
+
+.homepage-sentence{
+    color:grey;
+    display:Flex;
+    justify-content:  center;
+    margin:100px;
+    font-size:30px;
+    font-family: sans-serif;
+    font-style: italic;
+}
+.span{
+    color:White;
+}
+.drop-down-div{
+    text-align: center;
+}
+
+.client-sentence{
+    color:grey;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-style: italic;
+}
+.listed-logos{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-evenly;
+    padding:60px;
+}
+/* works */
+.selected_work {
+    font-weight: bold;
+    color: rgb(89, 89, 89);
+  }
+  .card1 {
+    display: flex;
+    align-items: center;
+  }
+  .card_text {
+    margin-left: 10px;
+  }
+  .text_gray {
+    color: gray;
+    font-size:20px;
+  }
+.text_white{
+    color:white;
+}
+.button{
+    color:gray;
+    background-color: black;
+    border-radius: 20px;
+    padding:10px;
+    border-color: white;
+}
+.button:hover{
+    cursor:pointer;
+}
+.card2img{
+    border-radius: 16px;
+display:flex;
+margin:15px;
+}
+.button2{
+    color:white;
+    background-color: #bc3dcf;
+    border-radius: 20px;
+    padding: 10px;
+}
+.button2:hover{
+    cursor: pointer;
+}
+.text_under{
+    color:grey;
+    padding: 10px;
+    font-size: 13px;
+}
+.subcard-title{
+    color: var(--Neutral-1, #E3E4E6);
+    font-feature-settings: 'clig' off, 'liga' off;
+    
+    /* Heading 4/Semibold */
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 36px */
+    letter-spacing: 1.44px;
+    text-transform: uppercase;
+}
+.subcard{
+    padding:20px 15px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text_white_subcard{
+    color:white;
+   font-size: 30px;
+}
+.text_gray_span{
+    color:gray;
+    font-size:30px;
+}
+.subcard-img{
+    display:flex;
+    align-items: center;
+}
+.subcard-img >img{
+    height: 400px;
+width:400px;
+     margin:10px;
+}
+.subcard-img2 >img{
+    height: 400px;
+    width:300px;
+     margin:10px;
+}
+.footer-logos{
+    justify-content: space-evenly;
+    padding:110px;
+   align-items: center;
+    width: 28px;
+}
+.list-logos{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-content: center;
+    font-size: 40px;
+}
+
+.list-logos > li{
+     margin: 0 5px;
+}
+.footer_paragraph{
+    color:white;
+}
+.footer_header{
+    color:white;
+}
+.footer_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer_end{
+    display:flex;
+    color:gray;
+    font-size: 20px;   
+}
+.footer_end_span{
+    color:white;
+    font-size: 20px;
+}
